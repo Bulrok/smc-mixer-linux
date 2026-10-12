@@ -1,0 +1,242 @@
+{
+  "faders": {
+    "ch1": {
+      "min": 0,
+      "max": 16256,
+      "count": 183
+    },
+    "ch2": {
+      "min": 0,
+      "max": 16256,
+      "count": 242
+    },
+    "ch3": {
+      "min": 0,
+      "max": 16256,
+      "count": 232
+    },
+    "ch4": {
+      "min": 0,
+      "max": 16256,
+      "count": 101
+    },
+    "ch5": {
+      "min": 0,
+      "max": 16256,
+      "count": 127
+    },
+    "ch6": {
+      "min": 0,
+      "max": 16256,
+      "count": 271
+    },
+    "ch7": {
+      "min": 0,
+      "max": 16256,
+      "count": 231
+    },
+    "ch8": {
+      "min": 0,
+      "max": 16256,
+      "count": 144
+    }
+  },
+  "notes": {
+    "ch1/0x00": {
+      "presses": 3
+    },
+    "ch1/0x02": {
+      "presses": 2
+    },
+    "ch1/0x03": {
+      "presses": 1
+    },
+    "ch1/0x05": {
+      "presses": 1
+    },
+    "ch1/0x06": {
+      "presses": 1
+    },
+    "ch1/0x07": {
+      "presses": 2
+    },
+    "ch1/0x08": {
+      "presses": 2
+    },
+    "ch1/0x0A": {
+      "presses": 1
+    },
+    "ch1/0x0B": {
+      "presses": 1
+    },
+    "ch1/0x0D": {
+      "presses": 1
+    },
+    "ch1/0x0E": {
+      "presses": 1
+    },
+    "ch1/0x0F": {
+      "presses": 2
+    },
+    "ch1/0x12": {
+      "presses": 1
+    },
+    "ch1/0x13": {
+      "presses": 1
+    },
+    "ch1/0x15": {
+      "presses": 1
+    },
+    "ch1/0x16": {
+      "presses": 1
+    },
+    "ch1/0x17": {
+      "presses": 5
+    },
+    "ch1/0x18": {
+      "presses": 3
+    },
+    "ch1/0x1A": {
+      "presses": 1
+    },
+    "ch1/0x1B": {
+      "presses": 1
+    },
+    "ch1/0x1D": {
+      "presses": 1
+    },
+    "ch1/0x1E": {
+      "presses": 1
+    },
+    "ch1/0x1F": {
+      "presses": 2
+    },
+    "ch1/0x2E": {
+      "presses": 2
+    },
+    "ch1/0x2F": {
+      "presses": 3
+    },
+    "ch1/0x5B": {
+      "presses": 4
+    },
+    "ch1/0x5C": {
+      "presses": 2
+    },
+    "ch1/0x5D": {
+      "presses": 5
+    },
+    "ch1/0x5E": {
+      "presses": 2
+    },
+    "ch1/0x5F": {
+      "presses": 3
+    },
+    "ch1/0x60": {
+      "presses": 3
+    },
+    "ch1/0x61": {
+      "presses": 4
+    },
+    "ch1/0x62": {
+      "presses": 4
+    },
+    "ch1/0x63": {
+      "presses": 3
+    }
+  },
+  "ccs": {
+    "ch1/cc16": {
+      "min": 65,
+      "max": 65,
+      "count": 307
+    },
+    "ch1/cc17": {
+      "min": 65,
+      "max": 65,
+      "count": 100
+    },
+    "ch1/cc18": {
+      "min": 65,
+      "max": 65,
+      "count": 135
+    },
+    "ch1/cc19": {
+      "min": 1,
+      "max": 65,
+      "count": 99
+    },
+    "ch1/cc20": {
+      "min": 1,
+      "max": 65,
+      "count": 88
+    },
+    "ch1/cc21": {
+      "min": 1,
+      "max": 65,
+      "count": 95
+    },
+    "ch1/cc22": {
+      "min": 1,
+      "max": 65,
+      "count": 71
+    },
+    "ch1/cc23": {
+      "min": 65,
+      "max": 65,
+      "count": 263
+    }
+  },
+  "first_seen_order": [
+    "fader ch1",
+    "fader ch2",
+    "fader ch8",
+    "fader ch7",
+    "fader ch3",
+    "fader ch6",
+    "fader ch4",
+    "fader ch5",
+    "cc ch1 #23",
+    "cc ch1 #16",
+    "cc ch1 #22",
+    "cc ch1 #21",
+    "cc ch1 #17",
+    "cc ch1 #20",
+    "cc ch1 #18",
+    "cc ch1 #19",
+    "note ch1 0x0B",
+    "note ch1 0x1B",
+    "note ch1 0x03",
+    "note ch1 0x02",
+    "note ch1 0x1A",
+    "note ch1 0x13",
+    "note ch1 0x0A",
+    "note ch1 0x12",
+    "note ch1 0x18",
+    "note ch1 0x08",
+    "note ch1 0x00",
+    "note ch1 0x0D",
+    "note ch1 0x1D",
+    "note ch1 0x05",
+    "note ch1 0x15",
+    "note ch1 0x0F",
+    "note ch1 0x1F",
+    "note ch1 0x07",
+    "note ch1 0x17",
+    "note ch1 0x0E",
+    "note ch1 0x1E",
+    "note ch1 0x16",
+    "note ch1 0x06",
+    "note ch1 0x5D",
+    "note ch1 0x5E",
+    "note ch1 0x63",
+    "note ch1 0x62",
+    "note ch1 0x5F",
+    "note ch1 0x61",
+    "note ch1 0x60",
+    "note ch1 0x5B",
+    "note ch1 0x5C",
+    "note ch1 0x2F",
+    "note ch1 0x2E"
+  ]
+}

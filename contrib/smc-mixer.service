@@ -1,0 +1,14 @@
+[Unit]
+Description=SMC-Mixer BLE-MIDI bridge
+After=bluetooth.target dbus.socket
+Wants=bluetooth.target
+
+[Service]
+Type=simple
+# Replace @INSTALL_DIR@ with the absolute path of this repository (see README).
+ExecStart=/usr/bin/python3 @INSTALL_DIR@/smcmixerd.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target

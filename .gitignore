@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Backups and scratch
+*.bak
+*.bak-*
+*~
+*.orig
+
+# Personal / local notes
+CLAUDE.md
+config.json
+*.local.json
+
+# Raw captures, logs
+*.btsnoop
+*.pcap
+*.pcapng
+*.log
+btsnoop*
+bugreport*
+
+# Credentials, never committed
+secrets.h
+creds.txt
+*.env
+.env

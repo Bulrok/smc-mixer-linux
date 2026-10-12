@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SMC-Mixer
+GenericName=MIDI Control Surface
+Comment=Live preview, testing and configuration for the M-VAVE SMC-Mixer
+Exec=/usr/bin/python3 @INSTALL_DIR@/ui.py
+Icon=smc-mixer
+Terminal=false
+Categories=AudioVideo;Audio;Music;
+Keywords=midi;mixer;bluetooth;fader;mackie;control surface;
+StartupNotify=true
+StartupWMClass=dev.local.SmcMixer
