@@ -6,6 +6,8 @@ Ardour, Bitwig and anything else that speaks MIDI can use it as a normal
 control surface — plus a GTK4 panel for
 live preview, manual testing and configuration.
 
+![The SMC-Mixer panel: a live drawing of the mixer with its eight encoders, lit REC/SOLO/MUTE/SELECT buttons, fader positions and transport, plus one-click LED and fader tests](docs/panel-device.png)
+
 ## Why this exists
 
 The mixer is a standards-compliant BLE-MIDI device, but some distributions
@@ -96,6 +98,8 @@ chrome and the device read as one surface; change them together.
 The test row runs whole-panel checks: all LEDs on/off, a chase across every
 light, a fader sweep, and per-row lighting. The **MIDI Monitor** tab shows both
 directions with decoded names; `in` is from the mixer, `out` is from the host.
+
+![MIDI Monitor tab: raw bytes, decoded PitchBend/CC/NoteOn messages and button names, with mixer input and host LED feedback in different colours](docs/panel-monitor.png)
 
 `selftest.py` does the same round-trip from the command line, subscribing to
 the bridge as a stand-in DAW.
